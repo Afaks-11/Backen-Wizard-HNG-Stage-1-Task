@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 
+app.get('/', (req,res) => { 
+  res.json({ message: 'Hello world'})})
+
 app.use("/", StringRoutes);
 app.listen(PORT, () => {
   console.log(`Server is running on: ${PORT}`);
