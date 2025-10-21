@@ -1,0 +1,22 @@
+{
+  "name": "hamman-afaks",
+  "version": "1.0.0",
+  "description": "backend hng stage 1",
+  "license": "ISC",
+  "author": "Hamman Afakirya",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "natural": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
